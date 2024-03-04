@@ -32,7 +32,7 @@ const PostPage: React.FC = () => {
 
   return (
     <div className="bg-gray-200 p-8 min-h-screen">
-      <div className="bg-white max-w-screen-xl mx-auto rounded-xl pl-5 pt-3 pb-8">
+      <div className="bg-white max-w-screen-xl mx-auto rounded-xl pl-8 pt-3 pb-8">
         <h1 className="text-2xl font-bold mb-4">{postData.title}</h1>
         <p className="mb-8" style={{ maxWidth: "930px" }}>
           {postData.body}
@@ -48,7 +48,7 @@ const PostPage: React.FC = () => {
             content={comment.body}
           />
         ))}
-        <div className="mr-4" style={{ marginTop: "50px" }}>
+        <div className="mr-11" style={{ marginTop: "50px" }}>
           <textarea
             className="w-full p-4 text-gray-700 leading-tight rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
             rows={4}

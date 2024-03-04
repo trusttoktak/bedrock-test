@@ -17,7 +17,7 @@ export const Comment: React.FC<CommentProps> = ({
 
   return (
     <div
-      className="flex p-6 mb-4 mr-4 rounded-xl shadow-custom"
+      className="flex p-6 mb-4 mr-11 ml-3 rounded-xl shadow-custom"
       style={{ flexDirection: "column" }}
     >
       <div className="flex items-center" style={{ flexDirection: "row" }}>
