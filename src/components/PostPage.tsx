@@ -48,7 +48,7 @@ const PostPage: React.FC = () => {
             content={comment.body}
           />
         ))}
-        <div className="mr-11" style={{ marginTop: "50px" }}>
+        <div className="ml-3 mr-11" style={{ marginTop: "50px" }}>
           <textarea
             className="w-full p-4 text-gray-700 leading-tight rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
             rows={4}
