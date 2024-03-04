@@ -42,7 +42,7 @@ const PostPage: React.FC = () => {
             key={comment.id}
             initials={{
               text: comment.email.substring(0, 2),
-              bgColor: `bg-${["red", "blue", "green"][i % 3]}-400`,
+              bgColor: `${["#FB7D7D", "#48ABFE", "#3FE897"][i % 3]}`,
             }}
             email={comment.email}
             content={comment.body}

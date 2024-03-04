@@ -22,7 +22,8 @@ export const Comment: React.FC<CommentProps> = ({
     >
       <div className="flex items-center" style={{ flexDirection: "row" }}>
         <div
-          className={`rounded-full h-8 w-8 flex items-center justify-center text-white uppercase font-bold mr-3 ${initials.bgColor}`}
+          className={`rounded-full h-8 w-8 flex items-center justify-center text-white uppercase font-bold mr-3`}
+          style={{ backgroundColor: initials.bgColor }}
         >
           {initials.text}
         </div>
